@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+main()
+{
+	float prec, pg;
+	
+	printf("Valor do produto:");
+	scanf("%f", &prec);
+	
+	pg = prec/100*90;
+	
+	printf("Total a pagar: %.2f", pg);
+	
+}
