@@ -1,0 +1,22 @@
+//um funcionario recebe um salario fixo mais 4% de comissão. Faça um programa que receba o salario fixo, o valor de suas vendas, calcule e mostre a comissão e o salário final.
+
+#include <stdio.h>
+
+main()
+{
+	float salario, venda, pgto, com;
+	
+	printf("Digite o valor do salario: ");
+	scanf("%f", &salario);
+	
+	printf("Digite o valor das vendas: ");
+	scanf("%f", &venda);
+	
+	com = venda*0.04;
+	pgto = salario+com;
+	
+	printf("\nComissao: %.2f", com);
+	printf("\nSalario final: %.2f", pgto);
+	
+	
+}
