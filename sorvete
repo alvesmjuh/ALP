@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+main()
+{
+	float quilo, qtde, preco;
+	
+	printf("Digite o preco do quilo do sorvete:");
+	scanf("%f" , &quilo);
+	printf("Digite o peso comprado:");
+	scanf("%f" , &qtde);
+	
+	preco = quilo*qtde; 
+	printf("\ntotal a pagar:%.2f", preco);
+	
+}
