@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+main()
+{
+	float larg, comp, a, p;
+	
+	printf("Digite a largura do terreno:");
+	scanf("%f" , &larg);
+	printf("Digite o comprimento do terreno:");
+	scanf("%f" , &comp);
+	
+	p = 2*(comp+larg);
+	a = comp*larg;
+	
+	printf("\nPerimetro = %.2f m e Area = %.2f m2", p, a);
+	
+		
+}
